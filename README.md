@@ -8,6 +8,35 @@ AI Agent/MCP server Comparisons - Detailed analysis between Cursor and Gemini MC
 End-to-End Workflows - Complete 10-minute workflow documentation
 Visual Process Maps - Workflow diagrams and process illustrations
 
+🚦 Getting Started
+View the Dashboard: Open Audit Dashboard.html in your browser for an interactive experience
+Read Documentation: Review the Word documents for detailed workflow information
+Study Comparisons: Examine the MCP server comparison analysis
+Follow Workflows: Use the process diagrams to understand the testing methodology
+
+🛠️MCP servers Used 
+Browser Tools MCP
+GitHub: https://github.com/AgentDeskAI/browser-tools-mcp
+Key capabilities
+ • Monitor browser console output
+ • Capture network traffic
+ • Take screenshots
+ • Analyze selected elements
+ • Wipe logs stored on the MCP server
+ • Run Lighthouse audits (Accessibility | Performance | SEO | Best Practices)
+Quick start (terminal)
+ npx @agentdeskai/browser-tools-mcp@latest
+
+Vega-Lite Data-Viz MCP
+GitHub: https://github.com/isaacwasserman/mcp-vegalite-server
+Key capabilities
+ • Interface for visualizing data with Vega-Lite syntax
+ • Save data tables for later visualization
+ • Render charts as PNG or full JSON spec
+ • Docker-friendly; works with any MCP-aware agent
+Quick start (terminal)
+ uv run mcp_server_datavis --output_type png
+ 
 📁 Repository Contents
 
 📊 Interactive Dashboard
@@ -44,12 +73,6 @@ Performance Auditing: Use the interactive dashboard for website analysis
 Workflow Documentation: Templates for documenting complex technical processes
 Educational Resource: Learn about MCP server implementations and comparisons
 
-🚦 Getting Started
-View the Dashboard: Open Audit Dashboard.html in your browser for an interactive experience
-Read Documentation: Review the Word documents for detailed workflow information
-Study Comparisons: Examine the MCP server comparison analysis
-Follow Workflows: Use the process diagrams to understand the testing methodology
-
 📈 Performance Highlights
 Accessibility Score: 98% (Excellent)
 SEO Score: 90% (Excellent)
@@ -63,3 +86,4 @@ Frontend: HTML5, CSS3, JavaScript (ES6+)
 Design: 3D CSS transforms, glassmorphic UI patterns
 Animation: CSS keyframes and particle.js
 Documentation: Microsoft Word, PNG diagrams
+
