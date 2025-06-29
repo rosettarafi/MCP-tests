@@ -9,12 +9,14 @@ End-to-End Workflows - Complete 10-minute workflow documentation
 Visual Process Maps - Workflow diagrams and process illustrations
 
 🚦 Getting Started
+
 View the Dashboard: Open Audit Dashboard.html in your browser for an interactive experience
 Read Documentation: Review the Word documents for detailed workflow information
 Study Comparisons: Examine the MCP server comparison analysis
 Follow Workflows: Use the process diagrams to understand the testing methodology
 
 🛠️MCP servers Used 
+
 Browser Tools MCP
 GitHub: https://github.com/AgentDeskAI/browser-tools-mcp
 Key capabilities
